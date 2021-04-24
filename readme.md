@@ -3,8 +3,8 @@ There are total 8 issues, each student is required to finish one. We have *creat
 # Code
 # Contributors
 {% for stu in site.stu %}
-  <div>
-    »<img src="{{ stu.image }}" width="50" height="50" style="display:inline;"><a href="http://github.com/{{ stu.user }}" style="text-decoration:none;color:inherit;"> @{{ stu.user }}</a> ({{ stu.name }})
-    <p style="text-indent: 5%;">»{{ stu.content }}</p>
+  <div style="text-indent: 5%;">
+    »<img src="{{ stu.image }}" width="50" height="50" style="display:inline;"><a href="https://github.com/{{ stu.user }}" style="text-decoration:none;color:inherit;"> @{{ stu.user }}</a> ({{ stu.name }})
+    <p style="text-indent: 10%;">»{{ stu.content }}</p>
   </div>
 {% endfor %}
