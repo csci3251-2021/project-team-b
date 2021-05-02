@@ -7,7 +7,7 @@ There are total 8 issues, each student is required to finish one. We have *creat
 {% include_relative code.c %}
 
 ```
-
+![example workflow](https://github.com/csci3251-2021/project-team-b/actions/workflows/c-cpp.yml/badge.svg)
 # Contributors
 {% for stu in site.stu %}
   <div style="text-indent: 5%;">
