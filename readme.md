@@ -15,3 +15,6 @@ There are total 8 issues, each student is required to finish one. We have *creat
     <p style="text-indent: 10%;">»{{ stu.content }}</p>
   </div>
 {% endfor %}
+
+---
+Last Updated: {{ site.time }}
